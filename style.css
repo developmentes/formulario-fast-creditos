@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  background:url(img/optica-elegance-4pn.png)  center top;
+  background-size:70% ;
+  font-family: sans-serif;
+  height: 100vh;  
+    
+
+}
+
+.login-box {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 350px;
+  height: 400px;
+  background-color: black;
+  position: absolute;
+  padding: 30px;
+  left: 50%;
+  top: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%,-50%);
+  
+}
+
+.login-box label {
+  color: white;
+  display: block;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+     
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+   margin-bottom: 10px; 
+    
+}
+.login-box input[type="text"]:hover,
+.login-box input[type="password"]:hover {
+     
+     transition: all 0.5s ease-out;
+    border-bottom: 1px solid #faa;
+    
+}
+.login-box input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(179, 4, 4);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    outline:none;
+    border: none;
+    border-radius: 10px;
+}
+.login-box input[type="submit"]:hover {
+
+    transition: all 0.1s ease-out;
+    height: 52px;
+    background-color: rgb(194, 65, 65);
+    box-shadow:1px 1px 1px rgb(177, 136, 136);
+}    
